@@ -1,0 +1,221 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    width: 320px;
+    margin:  0 auto;
+}
+
+/*header*/
+.page-header {
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+
+.block-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-name {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.list-item {
+    margin: 0 15px;
+}
+
+.list-item:last-child {
+    margin-right: 0;
+}
+
+.list-link {
+    padding: 10px 10px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/*content wrapper*/
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color:#fff; 
+}
+
+.subtitle {
+    text-align: center;
+    font-family: "RobotoLight", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 48px;
+    color: #fff;
+}
+
+.banner-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    background-image: url(../img/Vector\ Smart\ Object1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.color-lay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 1, 0.2);
+}
+
+/*button*/
+.button-menu {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    user-select: none;
+    padding: 12px 16px;
+    border: 3px solid #fff;
+    border-radius: 24px;
+}
+
+.button-content {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    user-select: none;
+    background: #ff4e50;
+    padding: 14px 48px;
+    border-radius: 20px;
+}
+
+.button-suggest {
+    color: #ff4e50;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    user-select: none;
+    border: 2px solid #ff4e50;
+    padding: 12px 36px;
+    border-radius: 22px;
+}
+
+.button-menu:active {
+    background: #e7e7e2;
+}
+
+.button-content:active {
+    background: #b60707; 
+}
+
+.button-suggest:active {
+    background: #f57070; 
+}
+
+/*suggest wrapper*/
+.suggest-wrapper {
+    margin-bottom: 120px;
+}
+
+.title-section {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 36px;
+    padding-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    color: #333333; 
+}
+
+.name-text {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    margin-bottom: 18px;
+    color: #333333;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "RobotoLight", sans-serif;
+    color: #999999;
+}
+
+.cards-wrapper {
+    padding-bottom: 30px;
+}
+
+.cards {
+    padding-bottom: 28px;
+}
+
+.picture-wrapper {
+    position: relative;
+}
+
+.photo { 
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.icon-wrapper {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.red {
+    background: #ff4e50;
+}
+
+.green {
+    background: #1cd7ad;
+}
+
+.yellow {
+    background: #ffa507;
+}
+
+.blue {
+    background: #4e73db;
+}

@@ -1,0 +1,232 @@
+@media (max-width: 659px) {
+    .page-header {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .block-menu {
+        flex-direction: column-reverse;
+    }
+
+    .logo-name {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 72px;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    .list-link {
+        padding: 8px 8px;
+    }
+
+    .content-wrapper {
+        display: block;
+        width: 252px;
+        padding-bottom: 111px;
+    }
+
+    .title {
+        font-size: 26px;
+        line-height: 1;
+    }
+
+    .subtitle {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 33px;
+    }
+
+    .banner-wrapper {
+        min-height: 540px;
+    }
+
+    .button-menu {
+        padding: 8px 12px;
+        border: 2px solid red;
+    }
+
+    .button-content {
+        margin-left: 13px;
+        padding: 8px 31px;
+    }
+
+    .button-suggest {
+        margin-left: 18px;
+        border: 2px solid #ff4e50;
+        padding: 12px 76px;
+    }
+    
+    .title-section {
+        width: 250px;
+        font-size: 20px;
+        margin-left: 35px;
+        margin-bottom: 24px;
+    }
+
+    .name-text {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 12px;
+    }
+
+    .cards {
+        width: 220px;
+        margin: 0 auto;
+    }
+
+    .first{order: 1;}
+    .second{order: 3;}
+    .third{order: 2;}
+    .fourth{order: 4;}
+
+    .picture-wrapper {
+        text-align: center;
+    }
+
+    .photo { 
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+    }
+
+    .icon {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+      
+    .icon-wrapper {
+        width: 40px;
+        height: 36px;
+        margin-top: 44px;
+        margin-left: 42px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 3px solid white;
+    }
+}
+
+@media (min-width: 660px) {
+    .wrapper {
+        width: 660px;
+    }
+
+    .button-menu {
+        border: 2px solid #fff;
+    }
+
+    .button-content {
+        margin-left: 213px;
+        padding: 14px 20px;
+    }
+
+    .button-suggest {
+        margin-left: 228px;
+    }
+
+    .cards-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding: 0 80px;
+    }
+
+    .cards {
+        flex: 0 0 236px;
+        text-align: center;
+    }
+
+    .photo { 
+        display: block;
+        margin: 0 auto;
+    }
+
+    .icon {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+      
+    .icon-wrapper {
+        width: 40px;
+        height: 36px;
+        margin-top: 44px;
+        margin-left: 42px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 3px solid white;
+    }
+
+}
+
+@media (min-width: 940px) {
+    .wrapper {
+        width: 940px;
+    }
+
+    .button-content {
+        margin-left: 353px;
+    }
+
+    .button-suggest {
+        margin-left: 367px;
+    }
+
+    .cards-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+
+    .cards {
+        flex: 0 0 218px;
+        text-align: center;
+    }
+
+    .photo { 
+        display: block;
+        margin: 0 auto;
+    }
+
+    .icon {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .icon-wrapper {
+        width: 40px;
+        height: 40px;
+        bottom: 0;
+        right: 0;
+        padding: 12px;
+        border: 3px solid white;
+    }
+}
